@@ -2,10 +2,10 @@ module github.com/AbsaOSS/k8s_crd
 
 go 1.23
 
-toolchain go1.23.4
+toolchain go1.23.5
 
 require (
-	github.com/coredns/caddy v1.1.2-0.20241029205200-8de985351a98
+	github.com/coredns/caddy/v2 v2.1.1
 	github.com/coredns/coredns v1.12.0
 	github.com/k8gb-io/go-weight-shuffling v0.4.0
 	github.com/maxmind/mmdbwriter v1.0.0
@@ -13,10 +13,10 @@ require (
 	github.com/oschwald/maxminddb-golang v1.13.1
 	github.com/stretchr/testify v1.10.0
 	go.uber.org/mock v0.5.0
-	k8s.io/api v0.31.3
-	k8s.io/apimachinery v0.31.3
-	k8s.io/client-go v0.31.3
-	sigs.k8s.io/external-dns v0.15.0
+	k8s.io/api v0.32.1
+	k8s.io/apimachinery v0.32.1
+	k8s.io/client-go v0.32.1
+	sigs.k8s.io/external-dns v0.15.1
 )
 
 require (
